@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">Library</div>
+      </div>
+      <div class="main-content">
+        <div class="add-book-form">
+          <form action="" id="meu-form">
+            <label for="titulo">
+              Title:
+              <input id="titulo" name="titulo" type="text" />
+            </label>
+            <label for="autor">
+              Author:
+              <input id="autor" name="autor" type="text" />
+            </label>
+            <label for="pages">
+              Pages:
+              <input id="pages" name="pages" type="number" />
+            </label>
+            <label for="lido">
+              Read:
+              <input id="lido" type="checkbox" checked />
+            </label>
+          </form>
+        </div>
+        <div class="btn-container">
+          <button class="add-book-btn" type="submit" form="meu-form">+</button>
+        </div>
+        <div class="book-card-container"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
